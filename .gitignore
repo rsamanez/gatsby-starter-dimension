@@ -7,4 +7,5 @@ yarn.lock
 
 # Build directory
 /public
+/public_x
 .DS_Store

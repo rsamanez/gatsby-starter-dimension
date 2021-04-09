@@ -26,7 +26,6 @@
 			));
 			@include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
 			position: relative;
-			width: 40rem;
 			max-width: 100%;
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
@@ -41,8 +40,19 @@
 				opacity: 1;
 			}
 
+			&.active2.timeout {
+				@include vendor('transform', 'translateY(0)');
+				opacity: 1;
+			}
+
 			&.active {
 				display: block !important;
+				width: 40rem;
+			}
+
+			&.active2 {
+				display: block !important;
+				width: 80rem;
 			}
 
 			.close {

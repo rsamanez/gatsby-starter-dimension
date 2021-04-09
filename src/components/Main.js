@@ -43,13 +43,14 @@ class Main extends React.Component {
               <div style={{ paddingLeft: '10px' }}>
                 <p>I am working as a development leader for "Pathpoint" a very interesting open-source project for New Relic® One Platform.<br></br>
                 "Pathpoint" is an enterprise platform tracker that models system health in relation to actual user-impacting business stages.<br></br>
-                  <a href='https://github.com/newrelic/nr1-pathpoint' target='_blank'>https://github.com/newrelic/nr1-pathpoint</a>
+                <a href="https://github.com/newrelic/nr1-pathpoint" rel="noreferrer" target="_blank"> has the same behavior as <a href="https://github.com/newrelic/nr1-pathpoint" rel="noreferrer noopener" target="_blank"></a></a>
+                  <a href='https://github.com/newrelic/nr1-pathpoint' ref='noreferrer' target='_blank'>https://github.com/newrelic/nr1-pathpoint</a>
                 </p>
               </div>
             </div>
           </p>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img style={{width: "40%"}} src={pic03} alt="" />
           </span>
 
 
@@ -99,7 +100,7 @@ class Main extends React.Component {
             </ul>
           </p>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img style={{width: "40%"}} src={pic03} alt="" />
           </span>
 
 
@@ -116,24 +117,24 @@ class Main extends React.Component {
           <p>
             <strong>Pathpoint</strong>
             <ul>
-              <li><a href="https://github.com/newrelic/nr1-pathpoint" target='_blank'>Pathpoint Open Source Project</a></li>
+              <li><a href="https://github.com/newrelic/nr1-pathpoint" ref="noreferrer" target="_blank">Pathpoint Open Source Project</a></li>
             </ul>
           </p>
           <p>
             <strong>PHP Laravel</strong>
             <ul>
-              <li><a href="https://demos.rsamanez.com/questionnaire-survey/" target='_blank'>Questionnaire-Survey App</a></li>
-              <li><a href="https://github.com/rsamanez/BookLibrary" target='_blank'>Laravel 6 Book Library Project</a></li>
-              <li><a href="https://github.com/rsamanez/apiAuth" target='_blank'>PHP Laravel Passport Authentication REST API</a></li>
-              <li><a href="http://enigmatic-island-95769.herokuapp.com" target='_blank'>freecodecamp clone project</a></li>
+              <li><a href="https://demos.rsamanez.com/questionnaire-survey/" ref='noreferrer' target='_blank'>Questionnaire-Survey App</a></li>
+              <li><a href="https://github.com/rsamanez/BookLibrary" ref='noreferrer' target='_blank'>Laravel 6 Book Library Project</a></li>
+              <li><a href="https://github.com/rsamanez/apiAuth" ref='noreferrer' target='_blank'>PHP Laravel Passport Authentication REST API</a></li>
+              <li><a href="http://enigmatic-island-95769.herokuapp.com" ref='noreferrer' target='_blank'>freecodecamp clone project</a></li>
             </ul>
           </p>
           <p>
             <strong>AWS Serverless</strong>
             <ul>
-              <li><a href="https://s32jqca7jl.execute-api.us-east-1.amazonaws.com/dev/" target='_blank'>PHP Laravel Demo</a></li>
+              <li><a href="https://s32jqca7jl.execute-api.us-east-1.amazonaws.com/dev/" ref='noreferrer' target='_blank'>PHP Laravel Demo</a></li>
               <ul>
-                <li><a href="https://github.com/rsamanez/bref-laravel-dem" target='_blank'>Git Project</a></li>
+                <li><a href="https://github.com/rsamanez/bref-laravel-dem" ref='noreferrer' target='_blank'>Git Project</a></li>
               </ul>
             </ul>
           </p>
@@ -142,30 +143,28 @@ class Main extends React.Component {
           <p>
             <strong>Arduino Apps</strong>
             <ul>
-              <li><a href="https://github.com/rsamanez/arduino-nano/tree/master/3servoRoboticArm" target='_blank'>3 servo Robotic Arm</a></li>
-              <li><a href="https://github.com/rsamanez/arduino-ESP8266/blob/master/ESP-01-MODULE.md" target='_blank'>ESP8266 Flashing Firmware</a></li>
+              <li><a href="https://github.com/rsamanez/arduino-nano/tree/master/3servoRoboticArm" ref='noreferrer' target='_blank'>3 servo Robotic Arm</a></li>
+              <li><a href="https://github.com/rsamanez/arduino-ESP8266/blob/master/ESP-01-MODULE.md" ref='noreferrer' target='_blank'>ESP8266 Flashing Firmware</a></li>
             </ul>
           </p>
           <p>
             <strong>Custom Drivers for ODROID XU4 - Ubuntu Linux 18.04 LTS</strong>
             <ul>
-              <li><a href="https://github.com/rsamanez/odroid-drivers" target='_blank'>MB1242 I2CXL-MaxSonar-EZ Driver</a></li>
+              <li><a href="https://github.com/rsamanez/odroid-drivers" ref='noreferrer' target='_blank'>MB1242 I2CXL-MaxSonar-EZ Driver</a></li>
             </ul>
           </p>
           <p>
             <strong>Assembler x64 Program</strong>
             <ul>
-              <li><a href="https://github.com/rsamanez/BigFactorial" target='_blank'>Assembler x64 Calculate factorial up to 40000</a></li>
-              <li><a href="https://github.com/rsamanez/QuickSort" target='_blank'>Assembler x64 Program to sort a random array with 1'000,000 elements</a></li>
-              <li><a href="https://github.com/rsamanez/assemblerx64" target='_blank'>Assembler x64 Samples</a></li>
+              <li><a href="https://github.com/rsamanez/BigFactorial" ref='noreferrer' target='_blank'>Assembler x64 Calculate factorial up to 40000</a></li>
+              <li><a href="https://github.com/rsamanez/QuickSort" ref='noreferrer' target='_blank'>Assembler x64 Program to sort a random array with 1'000,000 elements</a></li>
+              <li><a href="https://github.com/rsamanez/assemblerx64" ref='noreferrer' target='_blank'>Assembler x64 Samples</a></li>
             </ul>
           </p>
 
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img style={{width: "40%"}} src={pic03} alt="" />
           </span>
-
-
         </article>
 
         <article
@@ -201,7 +200,7 @@ class Main extends React.Component {
             </div>
           </p>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img style={{width: "40%"}} src={pic03} alt="" />
           </span>
 
 
@@ -209,34 +208,34 @@ class Main extends React.Component {
 
         <article
           id="articles"
-          className={`${this.props.article === 'articles' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+          className={`${this.props.article === 'articles' ? 'active2' : ''} ${this.props.articleTimeout ? 'timeout' : ''
             }`}
-          style={{ display: 'none' }}
+          style={{ display: 'none'}}
         >
           {close}
           <h2 className="major">Articles</h2>
 
           <p>
             <div style={{ display: 'flex' }}>
-              <img src={nr_logo} style={{ background: '#cccccc', width: '15%', height: '15%' }} alt="" />
+              <img src={nr_logo} style={{ background: '#cccccc', width: '10%', height: '10%' }} alt="" />
               <div style={{ paddingLeft: '10px',width: '450px;' }}>
-                <p><strong><a href='https://discuss.newrelic.com/t/workflow-monitoring-with-new-relic-one-pathpoint/141341' target='_blanck'>Workflow Monitoring with New Relic ONE Pathpoint</a></strong><br></br>
+                <p><strong><a href='https://discuss.newrelic.com/t/workflow-monitoring-with-new-relic-one-pathpoint/141341' ref='noreferrer' target='_blanck'>Workflow Monitoring with New Relic ONE Pathpoint</a></strong><br></br>
                 Your Business is made up of various operational journeys. How well you capture and visualize each of them, will be the true measure of profit and loss.<br></br>Understanding the business journey is complex.
                 <span className="image main">
-                    <img src={pathpoint_1} alt="" />
+                    <img class="center" style={{width: "50%"}} src={pathpoint_1} alt="" />
                 </span>
                 Leveraging existing telemetry for what we call Omni Observability.
                 <span className="image main">
-                    <img src={pathpoint_2} alt="" />
+                    <img class="center" style={{width: "70%"}} src={pathpoint_2} alt="" />
                 </span>
                 Visualizing workflows in an easy-to-follow and understand the process flow.
                 <span className="image main">
-                    <img src={pathpoint_3} alt="" />
+                    <img class="center" style={{width: "70%"}} src={pathpoint_3} alt="" />
                 </span>
                 <strong>Requirements</strong><br></br>
                     The New Relic ONE Pathpoint application is in the New Relic ONE App catalog. Once installed, you will need to be all FULL stack observability user to leverage the Pathpoint application. Pathpoint leverages existing metrics and events to easily visualize your relevant business workflows.<br></br><br></br>
                 <strong>IF APPLICABLE: CLONE THIS NERDPACK</strong><br></br>
-                    The New Relic ONE Pathpoint application is open-source <a href='https://github.com/newrelic/nr1-pathpoint' target='_blanck'>https://github.com/newrelic/nr1-pathpoint</a> feel free to clone and run locally. New Relic will also host this application for you and is easily installed through the New Relic ONE Application Catalog.
+                    The New Relic ONE Pathpoint application is open-source <a href='https://github.com/newrelic/nr1-pathpoint' ref='noreferrer' target='_blanck'>https://github.com/newrelic/nr1-pathpoint</a> feel free to clone and run locally. New Relic will also host this application for you and is easily installed through the New Relic ONE Application Catalog.
                 </p>
               </div>
             </div>
@@ -246,9 +245,9 @@ class Main extends React.Component {
 
           <p>
             <div style={{ display: 'flex' }}>
-              <img src={k3s_logo} style={{ background: '#cccccc', width: '15%', height: '15%' }} alt="" />
+              <img src={k3s_logo} style={{ background: '#cccccc', width: '10%', height: '10%' }} alt="" />
               <div style={{ paddingLeft: '10px',width: '450px;' }}>
-                <p><strong>K3s : Create your own kubernetes environment in 30 seconds</strong><br></br><a href='https://k3s.io/' target='_blank'>https://k3s.io/</a><br></br>
+                <p><strong>K3s : Create your own kubernetes environment in 30 seconds</strong><br></br><a href='https://k3s.io/' ref='noreferrer' target='_blank'>https://k3s.io/</a><br></br>
                 K3s is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.<br></br>
                 Lightweight Kubernetes. Easy to install, half the memory, all in a binary of less than 100 MB.<br></br>
                 Great for:<br></br>
@@ -276,7 +275,7 @@ class Main extends React.Component {
             </div>
           </p>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img style={{width: "20%"}} src={pic03} alt="" />
           </span>
 
 
@@ -307,7 +306,7 @@ class Main extends React.Component {
                 <input type="submit" value="Send Message" className="special" />
               </li>
               <li>
-                <input type="reset" value="Reset" />
+                <input xtype="reset" value="Reset" />
               </li>
             </ul>
           </form>
